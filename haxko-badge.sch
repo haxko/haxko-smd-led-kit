@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:haxko-badge-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -44,7 +43,8 @@ P 4100 2450
 F 0 "R1" H 4170 2496 50  0000 L CNN
 F 1 "820" H 4170 2405 50  0000 L CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 4030 2450 50  0001 C CNN
-F 3 "~" H 4100 2450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1910111742_Walsin-Tech-Corp-WR12X821-JTL_C383938.pdf" H 4100 2450 50  0001 C CNN
+F 4 "C383938" H 4100 2450 50  0001 C CNN "LCSC"
 	1    4100 2450
 	1    0    0    -1  
 $EndComp
@@ -65,10 +65,9 @@ L Device:R R4
 U 1 1 5D2923F0
 P 4400 2850
 F 0 "R4" H 4470 2896 50  0000 L CNN
-F 1 "82k" H 4470 2805 50  0000 L CNN
+F 1 "TBD" H 4470 2805 50  0000 L CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 4330 2850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811081713_RALEC-RTT06823JTP_C104910.pdf" H 4400 2850 50  0001 C CNN
-F 4 "C104910" H 4400 2850 50  0001 C CNN "LCSC"
+F 3 "~" H 4400 2850 50  0001 C CNN
 	1    4400 2850
 	1    0    0    -1  
 $EndComp
@@ -77,10 +76,9 @@ L Device:R R3
 U 1 1 5D292723
 P 4700 2850
 F 0 "R3" H 4770 2896 50  0000 L CNN
-F 1 "82k" H 4770 2805 50  0000 L CNN
+F 1 "TBD" H 4770 2805 50  0000 L CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 4630 2850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811081713_RALEC-RTT06823JTP_C104910.pdf" H 4700 2850 50  0001 C CNN
-F 4 "C104910" H 4700 2850 50  0001 C CNN "LCSC"
+F 3 "~" H 4700 2850 50  0001 C CNN
 	1    4700 2850
 	1    0    0    -1  
 $EndComp
@@ -166,8 +164,6 @@ F 3 "" H 3200 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4400 2700 4550 2700
-Wire Wire Line
-	4550 2600 4550 2700
 Connection ~ 4550 2700
 Wire Wire Line
 	4550 2700 4700 2700
@@ -194,23 +190,6 @@ F 3 "" H 3200 2300 50  0001 C CNN
 	1    3200 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R5
-U 1 1 5D7BED68
-P 4550 2450
-F 0 "R5" H 4620 2496 50  0000 L CNN
-F 1 "82k" H 4620 2405 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 4480 2450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811081713_RALEC-RTT06823JTP_C104910.pdf" H 4550 2450 50  0001 C CNN
-F 4 "C104910" H 4550 2450 50  0001 C CNN "LCSC"
-	1    4550 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 2300 4550 2300
-Connection ~ 4550 2300
-Wire Wire Line
-	4550 2300 5000 2300
 Wire Wire Line
 	4700 3250 4400 3650
 Connection ~ 4700 3250
@@ -218,8 +197,6 @@ Wire Wire Line
 	4400 3250 4700 3650
 Wire Wire Line
 	3200 2300 3200 2350
-Wire Wire Line
-	3200 2300 4100 2300
 Connection ~ 3200 2300
 $Comp
 L Device:R R2
@@ -228,8 +205,37 @@ P 5000 2450
 F 0 "R2" H 5070 2496 50  0000 L CNN
 F 1 "820" H 5070 2405 50  0000 L CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 4930 2450 50  0001 C CNN
-F 3 "~" H 5000 2450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1910111742_Walsin-Tech-Corp-WR12X821-JTL_C383938.pdf" H 5000 2450 50  0001 C CNN
+F 4 "C383938" H 5000 2450 50  0001 C CNN "LCSC"
 	1    5000 2450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4100 2300 4550 2300
+Wire Wire Line
+	4550 2300 4550 2700
+Connection ~ 4550 2300
+Wire Wire Line
+	4550 2300 5000 2300
+$Comp
+L Device:Battery_Cell BT2
+U 1 1 5DDB3AC1
+P 2600 2550
+F 0 "BT2" H 2718 2646 50  0000 L CNN
+F 1 "CR2032" H 2718 2555 50  0000 L CNN
+F 2 "haxko-badge:CR2032_Kopie" V 2600 2610 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810231513_Q-J-C70373_C70373.pdf" V 2600 2610 50  0001 C CNN
+F 4 "C70373" H 2600 2550 50  0001 C CNN "LCSC"
+	1    2600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2300 4100 2300
+Wire Wire Line
+	3200 2300 2600 2300
+Wire Wire Line
+	2600 2300 2600 2350
+Wire Wire Line
+	3200 2650 2600 2650
+Connection ~ 3200 2650
 $EndSCHEMATC
