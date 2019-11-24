@@ -8,6 +8,16 @@ Das Set besteht aus einer Platine, welche dem Hackerspace-Logo nachempfunden ist
 
 Als Stromversorgung dient eine CR2032 Batterie oder ein LIR2032 Akku. Erstere hält - je nach LED-Farbe - 1-2 Wochen Dauerbetrieb durch.
 
+## Software
+
+Die Platinen wurden in der feien Software [KiCad ](http://www.kicad-pcb.org/) erstellt
+
+## Making of
+
+Die Erstellung der ursprünglichen Eule wurde von [@adlerweb](https://github.com/adlerweb) im Rahmen von zwei Videos des Podcasts "BitBastelei" dokumentiert:
+* Teil 1 [YouTube](https://www.youtube.com/watch?v=7_sqE0ZSBSo) | [Adlerweb.info](https://www.adlerweb.info/blog/2019/11/10/bitbastelei-358-haxko-smd-loetkit-making-of-part-1/)
+* Teil 2 [YouTube](https://www.youtube.com/watch?v=P-gBLqLPzCo) | [Adlerweb.info](https://www.adlerweb.info/blog/2019/11/17/bitbastelei-359-haxko-smd-loetkit-making-of-part-2/)
+
 ## Releases
 
 Du möchtest selbst Platinen fertigen lassen? Unter den Releases finden sich fertige Gerber-Dateien, Bauteillisten sowie passende Anleitungen. Dateien im Master sind zum Teil ungetestet und nicht mit der jeweiligen Anleitung konsistent.
