@@ -25,4 +25,5 @@ Du möchtest selbst Platinen fertigen lassen? Unter den Releases finden sich fer
 ## Lizenz
 
 ![http://creativecommons.org/licenses/by-sa/4.0/](https://i.creativecommons.org/l/by-sa/4.0/88x31.png "Dieses Werk ist lizenziert unter Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz")
+
 Dieses Werk ist lizenziert unter Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz
