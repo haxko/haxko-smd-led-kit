@@ -184,7 +184,7 @@
     (tags "Diode 1206")
     (path "/00000000-0000-0000-0000-00005d28fcb9")
     (attr smd)
-    (fp_text reference "D1" (at 0 -1.8) (layer "F.SilkS")
+    (fp_text reference "D1" (at 0 -1.8) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7ab8f4d9-946f-490d-bd43-bed6d7aca621)
     )
@@ -248,7 +248,7 @@
     (tags "Diode 1206")
     (path "/00000000-0000-0000-0000-00005d295574")
     (attr smd)
-    (fp_text reference "D2" (at 0 -1.8) (layer "F.SilkS")
+    (fp_text reference "D2" (at 0 -1.8) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7190eeed-bf3f-4cb9-a1ec-9ff85d5361ab)
     )
@@ -462,7 +462,7 @@
     (tags "SOT-23")
     (path "/00000000-0000-0000-0000-00005d297850")
     (attr smd)
-    (fp_text reference "Q2" (at 0 -2.5 90) (layer "F.SilkS")
+    (fp_text reference "Q2" (at 0 -2.5 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b2c7dbdf-46e6-454b-9676-0abb9fa5eafe)
     )
@@ -1490,7 +1490,7 @@
     (tags "SOT-23")
     (path "/00000000-0000-0000-0000-00005d298f5c")
     (attr smd)
-    (fp_text reference "Q1" (at 0 -2.5 90) (layer "F.SilkS")
+    (fp_text reference "Q1" (at 0 -2.5 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b2a8ca94-dfec-44d2-b9f1-cd7833e80277)
     )
@@ -3510,7 +3510,7 @@
     (at 68.453 43.8785 45)
     (path "/00000000-0000-0000-0000-00005ddb3ac1")
     (attr through_hole)
-    (fp_text reference "BT2" (at 2.065459 14.907225 45) (layer "B.SilkS")
+    (fp_text reference "BT2" (at 2.065459 14.907225 45) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 66f6ff87-e3db-4e87-9e79-ecc5c9f69230)
     )
