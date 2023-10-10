@@ -2,7 +2,7 @@
 
 ![haxko PCB](https://raw.githubusercontent.com/haxko/haxko-smd-led-kit/master/doc/badge-render.png)
 
-Das **haxko SMD LED practice kit** ist eine kleine Lötübung des Hacker- und Makerspace **[haxko e.V.](https://haxko.space)** aus Koblenz.
+Das **haxko SMD LED practice kit** ist eine kleine Lötübung des Hacker- und Makerspace **[haxko e.V.](https://haxko.space)** aus Andernach im Kreis Mayen-Koblenz.
 
 Das Set besteht aus einer Platine, welche dem Hackerspace-Logo nachempfunden ist, sowie einigen SMD-Bauteilen, die durch ihre Größe auch für die meisten Einsteiger lötbar sind. Hat man alles richtig verlötet, blinken die beiden Augen abwechselnd.
 
