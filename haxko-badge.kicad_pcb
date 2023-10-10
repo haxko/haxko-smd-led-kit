@@ -3530,6 +3530,15 @@
       (net 7 "GND") (tstamp 41c63eb1-3f63-40cb-a62b-6c91c8d667b4))
   )
 
+  (gr_poly
+    (pts
+      (xy 64 26)
+      (xy 74 26)
+      (xy 74 28)
+      (xy 64 28)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "B.Cu") (tstamp 82a9c343-d94f-4144-9a84-31687d02f4cf))
   (gr_line (start 76.45908 35.91814) (end 80.01762 35.91814)
     (stroke (width 0.12) (type solid)) (layer "B.SilkS") (tstamp 1d658c5f-42ac-4a2f-b377-d2048d47310a))
   (gr_line (start 63.01232 51.69916) (end 60.73902 51.78298)
@@ -3634,8 +3643,8 @@
   (gr_text "Rev 3" (at 58.7375 50.165 90) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00005d9d0ac7)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "haxko · Hacker- & Makerspace Koblenz" (at 69.0245 30.734) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00005dd95ced)
-    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  (gr_text "haxko · Hacker- & Makerspace\nMayen-Koblenz" (at 69.0245 30.734) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00005dd95ced)
+    (effects (font (size 1.016 1.016) (thickness 0.15)) (justify mirror))
   )
   (gr_text "https://haxko.space" (at 69.0245 57.8485) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00005dd9ae1c)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -6288,8 +6297,8 @@
         (xy 58.437357 52.664975)
         (xy 58.419068 52.689193)
         (xy 58.416224 52.692461)
-        (xy 58.340918 52.767769)
-        (xy 58.232197 52.876489)
+        (xy 58.261728 52.846959)
+        (xy 57.786213 53.322473)
         (xy 57.786212 53.322474)
         (xy 57.742492 53.386297)
         (xy 57.742491 53.386299)
